@@ -940,6 +940,11 @@ typedef struct {
     INCLUDE(CAM_INTF_META_AUTOFOCUS_DATA,               cam_auto_focus_data_t,          1);
     INCLUDE(CAM_INTF_META_CDS_DATA,                     cam_cds_data_t,                 1);
     INCLUDE(CAM_INTF_PARM_UPDATE_DEBUG_LEVEL,           uint32_t,                       1);
+    INCLUDE(XIAOMI_01,                                  uint32_t,                       1);
+    INCLUDE(XIAOMI_02,                                  uint8_t,                        1);
+    INCLUDE(XIAOMI_03,                                  uint32_t,                       1);
+    INCLUDE(XIAOMI_04,                                  uint32_t,                       1);
+    INCLUDE(XIAOMI_05,                                  uint32_t,                       1);
 
     /* Specific to HAl1 */
     INCLUDE(CAM_INTF_META_CROP_DATA,                    cam_crop_data_t,                1);

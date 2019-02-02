@@ -1675,6 +1675,7 @@ typedef struct {
     int32_t est_snap_iso_value;
     uint32_t est_snap_luma;
     uint32_t est_snap_target;
+    volatile char xiaomi_reserved[12];
 } cam_3a_params_t;
 
 typedef struct {
@@ -2504,6 +2505,11 @@ typedef enum {
     CAM_INTF_PARM_BOKEH_MODE,
     CAM_INTF_META_USERZOOM,
     CAM_INTF_META_TUNING_PARAMS,
+    XIAOMI_01,
+    XIAOMI_02,
+    XIAOMI_03,
+    XIAOMI_04,
+    XIAOMI_05,
     CAM_INTF_PARM_MAX
 } cam_intf_parm_type_t;
 
