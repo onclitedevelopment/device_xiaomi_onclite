@@ -22,7 +22,7 @@ DEVICE_PATH := device/xiaomi/onclite
 TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := onclite
+TARGET_OTA_ASSERT_DEVICE := onclite,Onclite,Redmi 7,Redmi Y3 
 
 # Architecture
 TARGET_ARCH := arm64
