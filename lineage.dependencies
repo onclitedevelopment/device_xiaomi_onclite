@@ -1,6 +1,12 @@
 [
  {
-   "repository": "android_packages_resources_devicesettings",
-   "target_path": "packages/resources/devicesettings"
+  "repository": "android_packages_resources_devicesettings",
+  "target_path": "packages/resources/devicesettings"
+ },
+ {
+  "repository": "crsvt/android_kernel_xiaomi_onclite",
+  "target_path": "kernel/xiaomi/onclite",
+  "remote": "github",
+  "branch": "android-10"
  }
 ]
