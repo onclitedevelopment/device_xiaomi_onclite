@@ -136,6 +136,9 @@ TARGET_USES_MKE2FS := true
 
 TARGET_COPY_OUT_VENDOR := vendor
 
+# Power
+TARGET_TAP_TO_WAKE_NODE := "/sys/android_touch/wakeup_gesture_enable"
+
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
