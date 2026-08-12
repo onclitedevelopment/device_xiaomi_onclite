@@ -31,7 +31,6 @@ LOCAL_SRC_FILES := \
 
 LOCAL_MODULE           := libmmlib2d_interface
 include $(SDCLANG_COMMON_DEFS)
-LOCAL_PRELINK_MODULE   := false
 LOCAL_SHARED_LIBRARIES := libdl libcutils liblog libmmcamera_interface
 LOCAL_MODULE_TAGS := optional
 LOCAL_VENDOR_MODULE := true
