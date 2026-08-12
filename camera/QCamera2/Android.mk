@@ -38,6 +38,9 @@ LOCAL_SRC_FILES += \
         HAL3/QCamera3StreamMem.cpp
 
 LOCAL_CFLAGS := -Wall -Wextra -Werror
+ifeq (1,$(filter 1,$(shell echo "$$(( $(PLATFORM_SDK_VERSION) >= 31 ))" )))
+LOCAL_CFLAGS += -Wno-compound-token-split-by-macro
+endif
 LOCAL_CFLAGS += -DFDLEAK_FLAG
 LOCAL_CFLAGS += -DMEMLEAK_FLAG
 #HAL 1.0 source
