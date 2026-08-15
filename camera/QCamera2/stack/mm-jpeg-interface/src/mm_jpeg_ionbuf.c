@@ -32,7 +32,7 @@
 #include <fcntl.h>
 #include <stdio.h>
 #include <string.h>
-#include <linux/msm_ion.h>
+#include "ion_legacy_compat.h"
 #define MMAN_H <SYSTEM_HEADER_PREFIX/mman.h>
 #include MMAN_H
 

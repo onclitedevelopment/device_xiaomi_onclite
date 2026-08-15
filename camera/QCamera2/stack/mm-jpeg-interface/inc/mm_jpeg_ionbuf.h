@@ -31,7 +31,7 @@
 #define __MM_JPEG_IONBUF_H__
 
 // System dependencies
-#include <linux/msm_ion.h>
+#include "ion_legacy_compat.h"
 
 // JPEG dependencies
 #include "mm_jpeg_dbg.h"

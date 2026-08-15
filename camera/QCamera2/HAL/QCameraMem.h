@@ -31,7 +31,7 @@
 #define __QCAMERA2HWI_MEM_H__
 
 // System dependencies
-#include <linux/msm_ion.h>
+#include "ion_legacy_compat.h"
 #include <utils/Mutex.h>
 #include <utils/List.h>
 
