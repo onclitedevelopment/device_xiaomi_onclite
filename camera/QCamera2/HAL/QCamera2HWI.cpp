@@ -7337,6 +7337,7 @@ int32_t QCamera2HardwareInterface::processLEDCalibration(int32_t value)
 int32_t QCamera2HardwareInterface::processRTBData(cam_rtb_msg_type_t rtbData)
 {
     int32_t rc = NO_ERROR;
+#ifndef VANILLA_HAL
 
     //Check if we are in real time bokeh mode
     if (isDualCamera() && (mParameters.getHalPPType() == CAM_HAL_PP_TYPE_BOKEH)) {
@@ -7380,6 +7381,9 @@ int32_t QCamera2HardwareInterface::processRTBData(cam_rtb_msg_type_t rtbData)
             buffer->release(buffer);
         }
     }
+#else
+   (void)rtbData;  // unused
+#endif
     return rc;
 }
 
