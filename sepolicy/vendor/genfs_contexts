@@ -8,3 +8,8 @@ genfscon sysfs /devices/platform/soc/soc:qcom,mdss_wb_panel/extcon              
 # Rmt
 genfscon debugfs /rmt_storage	u:object_r:debugfs_rmt:s0
 
+
+# Subsystem restart, the indices this board probes in
+genfscon sysfs /devices/platform/soc/4080000.qcom,mss/subsys0/name   u:object_r:sysfs_ssr:s0
+genfscon sysfs /devices/platform/soc/soc:qcom,kgsl-hyp/subsys1/name  u:object_r:sysfs_ssr:s0
+genfscon sysfs /devices/platform/soc/1de0000.qcom,venus/subsys4/name u:object_r:sysfs_ssr:s0
