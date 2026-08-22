@@ -5,13 +5,13 @@
    "branch": "lineage-21"
   },
   {
-   "repository": "crsvt/android_kernel_xiaomi_onclite",
+   "repository": "onclitedevelopment/android_kernel_xiaomi_onclite",
    "target_path": "kernel/xiaomi/onclite",
    "remote": "github",
    "branch": "android-14.0-4.19"
   },
   {
-   "repository": "crsvt/proprietary_vendor_xiaomi",
+   "repository": "onclitedevelopment/proprietary_vendor_xiaomi",
    "target_path": "vendor/xiaomi",
    "remote": "github",
    "branch": "lineage-21"
